@@ -1,12 +1,15 @@
 import React from 'react';
+import './input.scss';
 
-function Input({label}) {
+function Input({label, id}) {
   return (
-    <div>
-      <span>
-        {label}
-      </span>
-      <input />
+    <div className="input">
+      <div>
+        <label for={id}>
+          {label}
+        </label>
+      </div>
+      <input id={id} />
     </div>
   );
 }

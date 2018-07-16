@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background: beige;
 }
 
 .App-header {
@@ -11,4 +12,10 @@
 
 .App-title {
   font-size: 1.5em;
+}
+
+html,
+body,
+body > div {
+  height: 100%;
 }
